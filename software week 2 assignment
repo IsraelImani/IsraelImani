@@ -1,0 +1,90 @@
+## Installation of VS Code on Windows 11
+
+There are no specific prerequisites for installing VS Code on Windows 11. Here's how to do it:
+
+1. **Download:** Visit the official VS Code download page [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
+2. **Choose Version:** Download the installer for Windows (64-bit).
+3. **Run Installer:** Double-click the downloaded installer and follow the on-screen instructions. It's recommended to keep the default settings during installation.
+
+## First-time Setup for Optimal Coding
+
+After installation, consider these adjustments:
+
+* **Themes:** Go to **File > Preferences > Settings (or Code > Preferences > Settings on macOS)**. Search for "Theme" and explore different themes to find one that suits your preference. Popular options include Dark+ (default dark theme) and One Dark Pro.
+* **Extensions:** Open the Extensions view (**Ctrl+Shift+X**). Explore popular extensions like:
+    * **ESLint:** Linter for JavaScript code.
+    * **Prettier:** Code formatter for consistent style.
+    * **Live Server:** Launches a local server to preview web pages directly in the browser.
+* **Settings:** Adjust font size under **"Editor > Font Size"**. You can also customize keyboard shortcuts under **"Keyboard Shortcuts"**.
+
+## User Interface Overview
+
+The VS Code interface consists of several key areas:
+
+* **Activity Bar (left):** Provides access to various functionalities like managing extensions, debugging, and Git integration.
+* **Side Bar (left):** Displays your project folders, open files, and the integrated terminal.
+* **Editor Group (center):** The main workspace where you write and edit your code. You can have multiple editors open in tabs.
+* **Status Bar (bottom):** Shows information like current line number, indentation mode, and Git status.
+
+## Command Palette
+
+The Command Palette (**Ctrl+Shift+P**) is a powerful tool that lets you access all VS Code features and settings through a search bar. You can use it for various tasks, such as:
+
+* Opening specific files or folders.
+* Running build tasks or starting debugging sessions.
+* Installing or managing extensions. 
+
+## Extensions in VS Code
+
+Extensions add functionalities beyond VS Code's core features. Here's how to manage them:
+
+* **Finding Extensions:** Open the Extensions view (**Ctrl+Shift+X**). Browse categories or search for specific functionalities.
+* **Installing Extensions:** Click the "Install" button next to the desired extension.
+* **Managing Extensions:** You can view installed extensions, update them, or disable/uninstall them from the Extensions view.
+
+**Essential Extensions for Web Development:**
+
+* **ESLint:** Linting for JavaScript/TypeScript.
+* **Prettier:** Code formatting for consistent style.
+* **Live Server:** Launches a local server for live preview.
+* **Debugger for Chrome/Firefox:** Enables debugging web applications in those browsers.
+
+## Integrated Terminal
+
+The integrated terminal (**Terminal** tab in the Panel) allows you to run command-line tools directly within VS Code. This eliminates the need to switch between VS Code and a separate terminal window.
+
+## File and Folder Management
+
+* **Create Files/Folders:** Right-click in the Side Bar or an existing folder and select "New File" or "New Folder".
+* **Open Files:** Double-click a file in the Side Bar or use the **Go to File** feature (**Ctrl+G**).
+* **Navigation:** Use the Side Bar to navigate folders. You can also use keyboard shortcuts like **Ctrl+T** to open new tabs and switch between them.
+
+## Settings and Preferences
+
+Settings allow you to customize VS Code's behavior. Access them through **File > Preferences > Settings (or Code > Preferences > Settings on macOS)**. Here are some examples:
+
+* **Change Theme:** Search for "Theme" and select your preference.
+* **Font Size:** Go to **"Editor > Font Size"**.
+* **Keybindings:** Search for "Keyboard Shortcuts" and modify keybindings for specific actions.
+
+## Debugging in VS Code
+
+1. **Set Breakpoints:** Click on the line number where you want to pause execution.
+2. **Start Debugging:** Open the Command Palette (**Ctrl+Shift+P**) and search for "Start Debugging". Choose the appropriate debug configuration.
+3. **Step Through Code:** Use the debugger controls (play, pause, step) to execute your code line by line and inspect variables.
+
+**Debugging Features:**
+
+* Setting breakpoints to pause execution at specific lines.
+* Stepping through code line by line.
+* Inspecting variable values during execution.
+
+## Using Source Control with Git
+
+VS Code integrates seamlessly with Git for version control. Here's a basic workflow:
+
+1. **Initialize Repository
+ Open the integrated terminal and navigate to your project directory using cd. Run git init to create a new Git repository.
+2. Stage Changes: Use the Source Control view (Source Control tab in the Panel) to stage specific files or folders for version control.
+3. Commit Changes: Enter a commit message describing your changes and run git commit -m "Your message" in the terminal.
+4. Push to GitHub: Create a remote repository on GitHub and link it to your local repository. Use git push origin main (replace "main" with your branch name) to push your committed changes to GitHub.
